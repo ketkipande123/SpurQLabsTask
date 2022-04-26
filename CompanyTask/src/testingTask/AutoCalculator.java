@@ -52,7 +52,6 @@ public class AutoCalculator {
 		Thread.sleep(2000);
 		
 		//Addition
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div//span[@class='sciop' and text()='–']")).click();
 		driver.findElement(By.xpath("//div//span[@class='scinm' and text()='2']")).click();
 		driver.findElement(By.xpath("//div//span[@class='scinm' and text()='3']")).click();
@@ -77,7 +76,6 @@ public class AutoCalculator {
 		Thread.sleep(2000);
 
 		//Subtraction
-		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div//span[@class='scinm' and text()='2']")).click();
 		driver.findElement(By.xpath("//div//span[@class='scinm' and text()='3']")).click();
 		driver.findElement(By.xpath("//div//span[@class='scinm' and text()='4']")).click();
